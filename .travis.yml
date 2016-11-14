@@ -22,4 +22,4 @@ deploy:
   bucket: 'myavatars'
   acl: ''
   on:
-    repo: thandon263/Contact-Management-App
+    repo: thandon263/contacts_app
