@@ -1,6 +1,8 @@
 language: ruby
 rvm: 2.3.1
-script: bundle exec rake build && bundle exec rake builddoc
+script:
+  - bundle exec rake build
+  - bundle exec rake builddoc
 env:
 - DB=postgres
 - RAILS_ENV=test
